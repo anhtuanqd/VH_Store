@@ -1,0 +1,31 @@
+{
+    "listProduct": [
+        {
+            "id": 1,
+            "src": "https://www.visitloutraki.com/sites/default/files/styles/1920x600/public/header-slider/shopping-in-loutraki.jpg?itok=4wyUvTNR",
+            "alt": "first product",
+            "caption": {
+                "title": "Black Friday",
+                "content": "Ngày Hội Mua Sắm"
+            }
+        },
+        {
+            "id": 2,
+            "src": "https://www.instyle.es/medio/2020/06/15/rebajas-de-lujo_8a1c5019_812x456.jpg",
+            "alt": "second slide1",
+            "caption": {
+                "title": "Mua Sắm Đỉnh Cao",
+                "content": "Trao Nhau Quà Tặng"
+            }
+        },
+        {
+            "id": 3,
+            "src": "https://phantom-telva.unidadeditorial.es/3d21e0c9df19cfa209bd33af3ebd4ff0/crop/6x27/992x580/resize/640/assets/multimedia/imagenes/2020/07/14/15947285988853.jpg",
+            "alt": "third slide",
+            "caption": {
+                "title": "Làm Đẹp Bản Thân",
+                "content": "Không Bao Giờ Lỗ"
+            }
+        }
+    ]
+}

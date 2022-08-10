@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/246680909_2056589161173903_3533478270793561739_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=swoLxODx91wAX_uO3Nq&_nc_ht=scontent.fhan5-6.fna&oh=00_AT88xxJMXdw9SI8ZOBzvP265dvwz54-QxdHde92TxMCRzw&oe=622856C4",
+        "alt": "",
+        "title": "Unknow",
+        "name":"Ý tưởng khởi nghiệp",
+        "job":" ",
+        "content": "Bạn dũng cảm hơn những gì bạn tin, bạn mạnh mẽ hơn những gì bạn thấy và bạn thông minh hơn những gì bạn nghĩ."
+
+    },
+    {
+        "id": 2,
+        "imgUrl": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/246680909_2056589161173903_3533478270793561739_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=swoLxODx91wAX_uO3Nq&_nc_ht=scontent.fhan5-6.fna&oh=00_AT88xxJMXdw9SI8ZOBzvP265dvwz54-QxdHde92TxMCRzw&oe=622856C4",
+        "alt": "",
+        "title": "Unknow",
+        "name":"Lý tưởng kinh doanh",
+        "job":"",
+        "content": "Đừng hạ thấp giấc mơ chỉ để phù hợp với hoàn cảnh. Hãy củng cố niềm tin để làm được những điều tuyệt vời hơn."
+
+    },
+    {
+        "id": 3,
+        "imgUrl": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/246680909_2056589161173903_3533478270793561739_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=swoLxODx91wAX_uO3Nq&_nc_ht=scontent.fhan5-6.fna&oh=00_AT88xxJMXdw9SI8ZOBzvP265dvwz54-QxdHde92TxMCRzw&oe=622856C4",
+        "alt": "",
+        "title": "Unknow",
+        "name":"Đức tin",
+        "job":"",
+        "content": "Sai một lần thì có thể là tai nạn. Nhưng lặp đi lặp lại sai lầm đó thì chính là sự lựa chọn."
+
+    },
+
+    {
+        "id": 4,
+        "imgUrl": "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/246680909_2056589161173903_3533478270793561739_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=swoLxODx91wAX_uO3Nq&_nc_ht=scontent.fhan5-6.fna&oh=00_AT88xxJMXdw9SI8ZOBzvP265dvwz54-QxdHde92TxMCRzw&oe=622856C4",
+        "alt": "",
+        "title": "Unknow",
+        "name":"Sứ mệnh của chúng tôi",
+        "job":"",
+        "content": "Nếu có thể làm ai đó mỉm cười, hãy làm ngay hôm nay! Thế giới này cần nhiều người như bạn."
+
+    }
+
+
+]

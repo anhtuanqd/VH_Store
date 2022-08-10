@@ -1,0 +1,227 @@
+.productDetail{
+    margin-top: 100px;
+}
+
+.productDetail img {
+  object-fit: cover;
+}
+
+.pd60 {
+  padding-bottom: 60px;
+}
+.downContent {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.downContent a {
+  text-decoration: none;
+}
+
+.downContent h4 {
+  font-size: 17px;
+  color: #1a6692;
+  margin-bottom: 20px;
+}
+
+.downContent h6 {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  font-size: 18px;
+  color: #121212;
+}
+
+.downContent p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a;
+  line-height: 24px;
+}
+
+.start {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.start li {
+  display: inline-block;
+}
+
+.review {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  font-size: 13px;
+  color: #f33f3f;
+  font-weight: 500;
+}
+/*  */
+.nameProduct {
+  width: 100%;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin: 0;
+}
+.cost {
+    font-size: 25px;
+    color: red;
+    font-weight: 700;
+    padding: 24px 0;
+    margin: 0;
+    border: none;
+}
+.color {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.imgList img:hover {
+  cursor: pointer;
+  animation: hoverImage 0.4s linear;
+  border: #e42127 solid 1px;
+}
+.selectSize {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+}
+.formSize {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+.Size {
+  display: flex;
+}
+.Size p {
+  min-width: 30px;
+  width: auto;
+  padding: 0 5px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 5px;
+  border: solid 1px #ddd;
+  color: #505252;
+  margin-bottom: 5px;
+  position: relative;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Size p:hover {
+  border: 1px solid #e42127;
+}
+
+.Count input {
+  margin-left: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 47px;
+}
+.btnBuy {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0 32px 0;
+}
+.addProduct {
+  width: 49%;
+  margin-right: 2%;
+  background: #fff;
+  color: red;
+  border: 2px solid red;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: not-allowed;
+  font-size: 1rem;
+  height: 42px;
+  line-height: 38px;
+  display: flex;
+  text-align: center;
+}
+.buyNow {
+  width: 49%;
+  color: #000;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  background: #fff;
+  display: flex;
+  text-align: center;
+  font-size: 1rem;
+  height: 42px;
+  line-height: 38px;
+  cursor: pointer;
+}
+.addProduct p ,
+.buyNow p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.inStore {
+  width: 90%;
+  text-align: center;
+  background: #000;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.insur {
+  width: 90%;
+  padding-top: 20px;
+  font-size: 1.2rem;
+}
+.prod {
+  width: 100%;
+}
+.prod p {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.prod ul {
+  display: flex;
+  padding-top: 10px;
+}
+.prod ul li {
+  margin-left: 80px;
+  opacity: 0.7;
+}
+.mainDT {
+  border: 1px solid #818686;
+  padding: 15px;
+}
+.likeproduct {
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.costlikeProduct {
+  text-align: center;
+}
+.hehe:hover {
+  animation: hoverImage 0.4s linear;
+}
+@keyframes hoverImage {
+  from {
+    
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}

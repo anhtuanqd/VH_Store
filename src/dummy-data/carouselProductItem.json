@@ -1,0 +1,19 @@
+{
+    "productItem": [
+        {
+            "id": 1,
+            "src": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/ps/20211109/09112021111119_1000_x_1500__Dai_dien.jpg",
+            "alt": "first slide"
+        },
+        {
+            "id": 2,
+            "src": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/psCT/20211109/35567531/1108_x_1500_layout_19_(1).jpg",
+            "alt": "second slide1"
+        },
+        {
+            "id": 3,
+            "src": "https://storage.googleapis.com/cdn.nhanh.vn/store/7136/psCT/20211109/35567531/1108_x_1500_layout_19_(2).jpg",
+            "alt": "third slide"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "src": "https://theme.hstatic.net/1000333436/1000696015/14/slideshow_1.jpg?v=631",
+      "alt": "first slide",
+      "caption": {
+        "title": "HT Store",
+        "content": "Thời trang tạo nên thương hiệu"
+      }
+    },
+    {
+      "id": 2,
+      "src": "https://bizweb.dktcdn.net/100/305/277/themes/756519/assets/banner1.jpg?1633151213550",
+      "alt": "second slide1",
+      "caption": {
+        "title": "Noel",
+        "content": "Sale sập sàn"
+      }
+    },
+    {
+      "id": 3,
+      "src": "https://dezi.vn/wp-content/uploads/2020/11/banner-web-manh-truong01.png",
+      "alt": "third slide",
+      "caption": {
+        "title": "HT Store",
+        "content": "Phong cách trẻ trung, năng động"
+      }
+    }
+  ]
+}

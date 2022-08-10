@@ -1,0 +1,87 @@
+/* Display */
+.dNone {
+  display: none !important;
+}
+.dFlex {
+  display: flex !important;
+}
+.dInlineFlex {
+  display: inline-flex !important;
+}
+
+.noShrink {
+  flex-shrink: 0;
+}
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a;
+  line-height: 24px;
+}
+.a {
+  text-decoration: none !important;
+}
+.ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* col */
+.col12{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.col6{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col3{
+  flex: 0 0 25%;
+  width: 25%;
+}
+
+.col4{
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col8{
+  flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.col2{
+  flex: 0 0 16.6666667%;
+  width: 16.66666667%;
+}
+.col3{
+  flex: 0 0 25%;
+  width: 25%;
+}
+
+/* Text Aligns */
+.textCenter {
+  text-align: center;
+}
+.textRight {
+  text-align: right;
+}
+/* color */
+.cTemplateRed{
+  color: #f33f3f;
+}
+/* Text */
+.uppercase{
+  text-transform: uppercase;
+}

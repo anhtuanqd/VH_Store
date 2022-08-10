@@ -1,0 +1,31 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "src": "https://i.pinimg.com/originals/d9/54/4d/d9544daeab1b31d37277ea256b4ab725.jpg",
+            "alt": "first slide",
+            "caption": {
+                "title": "Last Minute",
+                "content": "Grab last minute deals"
+            }
+        },
+        {
+            "id": 2,
+            "src": "https://img5.thuthuatphanmem.vn/uploads/2021/08/25/hinh-nen-3d-cho-may-tinh-4k_084701936.jpg",
+            "alt": "second slide1",
+            "caption": {
+                "title": "Best Offer",
+                "content": "New Arrivals On Sale"
+            }
+        },
+        {
+            "id": 3,
+            "src": "https://wallpaperaccess.com/full/250472.jpg",
+            "alt": "third slide",
+            "caption": {
+                "title": "Last Minute",
+                "content": "Grab last minute deals"
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "https://cf.shopee.vn/file/c38bdbc92d533b870b654ad004229cd8",
+        "alt": "anhdemo",
+        "title": "Áo Len Nữ Cổ Lọ Tay Dài",
+        "price": 359.000,
+        "content": "YODY - Look good. Feel good",
+        "star": 4,
+        "review": 5
+    },
+    {
+        "id": 2,
+        "imgUrl": "https://my-test-11.slatic.net/p/cb041b1f19503aa8cf004a4ea680e302.jpg_600x600q80.jpg",
+        "alt": "anhdemo",
+        "title": "Áo Len Nữ Cổ Lọ Vặn Thừng",
+        "price": 459.000,
+        "content": "YODY - Look good. Feel good",
+        "star": 4,
+        "review": 28
+
+    },
+    {
+        "id": 3,
+        "imgUrl": "https://cf.shopee.vn/file/fd0f409f9950d9433b1c94195cb85b2c",
+        "alt": "anhdemo",
+        "title": "Áo Len Nữ Cổ Tròn Thổ Cẩm",
+        "price": 499.000,
+        "content": "YODY - Look good. Feel good",
+        "star": 2,
+        "review": 45
+
+    },
+    {
+        "id": 4,
+        "imgUrl": "https://my-test-11.slatic.net/p/cb041b1f19503aa8cf004a4ea680e302.jpg_600x600q80.jpg",
+        "alt": "anhdemo",
+        "title": "Áo Len Nữ Mỏng Tay Lỡ",
+        "price": 389.000,
+        "content": "YODY - Look good. Feel good",
+        "star": 1,
+        "review": 68
+    },
+    {
+        "id": 5,
+        "imgUrl": "https://cf.shopee.vn/file/5cadc9ad8c42f7b29ba5225169f52c7d",
+        "alt": "anhdemo",
+        "title": "Áo Len Nữ Mỏng Cổ Cao",
+        "price": 359.000,
+        "content": "YODY - Look good. Feel good",
+        "star": 3,
+        "review": 32
+
+    },
+    {
+        "id": 6,
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrC6akKZmFgYEEoi7bOBNl1NTRgW-svKIjEoWIY6E2cRiBQytlePqo7Yel5teTDIoSST0&usqp=CAU",
+        "alt": "anhdemo",
+        "title": "Áo Len Nữ Thời Trang",
+        "price": 499.000,
+        "content": "YODY - Look good. Feel good",
+        "star": 2,
+        "review": 26
+    }
+]

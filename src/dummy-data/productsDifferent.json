@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "https://vangmanhhung.com/wp-content/uploads/2018/06/vong-tay-nu-cao-cap.png",
+        "alt": "anhdemo",
+        "title": "Vòng Tay Kiệt Xuất",
+        "price": 120.000,
+        "content": "Vòng tay vàng tây italy mang thiết kế đột phá, là sự kết hợp giữa vàng Ý 18k sang trọng và công nghệ chế tác kim hoàn đỉnh cao. Duy nhất có tại VMH",
+        "star": 4,
+        "review": 5
+    },
+    {
+        "id": 2,
+        "imgUrl": "https://bizweb.dktcdn.net/thumb/large/100/082/372/products/gong-kinh-can-nam-nu-hibou-optical-nn0234.jpg",
+        "alt": "anhdemo",
+        "title": "Gọng kính cận Hibou ",
+        "price": 320.000,
+        "content": "Gọng kính cận nam nữ NN023 thuộc dòng gọng kính cận cao cấp tại Hibou Optical. Gọng kính cận dày này được làm từ chất liệu nhựa, đẹp bền bỉ",
+        "star": 4,
+        "review": 28
+
+    },
+    {
+        "id": 3,
+        "imgUrl": "https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/dsc5607-1-copy.jpg?v=1599505772900",
+        "alt": "anhdemo",
+        "title": "ANK CLOVER",
+        "price": 230.000,
+        "content": "Chiếc lắc chân bạc 925 sẽ làm bạn nổi bật khi diện những chân váy ngắn, hoặc có thể mặc đồ đơn giản thì chính chiếc lắc chân sẽ làm điểm nhấn cho bạn ",
+        "star": 2,
+        "review": 45
+
+    },
+    {
+        "id": 4,
+        "imgUrl": "https://bizweb.dktcdn.net/thumb/1024x1024/100/302/551/products/web-dsc7212-1.jpg?v=1590751056787",
+        "alt": "anhdemo",
+        "title": "ANK DOG AND BUBBLE",
+        "price": 350.000,
+        "content": "Chiếc lắc chân bạc 925 sẽ làm bạn nổi bật khi diện những chân váy ngắn, hoặc có thể mặc đồ đơn giản thì chính chiếc lắc chân sẽ đẹp. ",
+        "star": 3,
+        "review": 68
+    },
+    {
+        "id": 5,
+        "imgUrl": "https://lh4.googleusercontent.com/-I26yU6JFE2w/Xg8KMYyJ_LI/AAAAAAAAQ8g/EBhq1QfGVbsYb6tXHXvETGqo5G6BI2gLQCLcBGAsYHQ/s1600/That-lung-Belt-Louis-Vuitton-Inventeur-nam-mat-guong-den-chu-vang-day-nau-vang-o-ke-caro-hang-hieu-cong-so-cao-cap-fake-chinh-hang.jpg",
+        "alt": "anhdemo",
+        "title": "Thắt lưng Belt Louis Vuitton",
+        "price": 1000.000,
+        "content": "Thắt lưng Belt Louis Vuitton Inventeur nam mặt gương đen, chữ vàng, dây nâu vàng ô kẻ caro hàng hiệu công sở cao cấp fake chính hãng",
+        "star": 4,
+        "review": 32
+
+    },
+    {
+        "id": 6,
+        "imgUrl": "https://cdn.shopify.com/s/files/1/1236/1344/products/DSCF6290_a5196f86-36d5-4e16-a042-9952104eca9a_600x.jpg?v=1637833545",
+        "alt": "anhdemo",
+        "title": "Ví Card Amber",
+        "price": 380.000,
+        "content": "Khoác trên mình chất liệu da Sáp cùng thiết kế đơn giản nhằm tạo độ mỏng tối đa, giúp việc bỏ ví vào túi không còn là vấn đề lớn nữa",
+        "star": 2,
+        "review": 26
+    }
+]

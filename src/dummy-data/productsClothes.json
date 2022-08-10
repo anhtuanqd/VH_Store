@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "https://cf.shopee.vn/file/875ec8b4aefea5fe8091981b6adf1c3c",
+        "alt": "anhdemo",
+        "title": "Đồ Ngủ Ngon Hình Con Ếch",
+        "price": 135.200,
+        "content": "🌴🌴Đi ngủ, đi chơi, đi du lịch Siêu gọn - nhẹ - siêu mát mẻ - ko nhăn ko lo nóng, bí!",
+        "star": 4,
+        "review": 5
+    },
+    {
+        "id": 2,
+        "imgUrl": "https://vn-live-05.slatic.net/p/c5b829924d86925c4d5e403268a73f13.jpg_720x720q80.jpg_.webp",
+        "alt": "anhdemo",
+        "title": "Đồ Ngủ Ngon Màu Tím",
+        "price": 23.0,
+        "content": "🌴🌴Đi ngủ, đi chơi, đi du lịch Siêu gọn - nhẹ - siêu mát mẻ - ko nhăn ko lo nóng, bí!",
+        "star": 4,
+        "review": 28
+
+    },
+    {
+        "id": 3,
+        "imgUrl": "https://vn-live-05.slatic.net/p/2a0b5cc11fcacb1f4ff99453814cd76f.jpg_720x720q80.jpg_.webp",
+        "alt": "anhdemo",
+        "title": "Đồ Ngủ Ngon Màu Xanh Lá",
+        "price": 135.200,
+        "content": "🌴🌴Đi ngủ, đi chơi, đi du lịch Siêu gọn - nhẹ - siêu mát mẻ - ko nhăn ko lo nóng, bí!",
+        "star": 2,
+        "review": 45
+
+    },
+    {
+        "id": 4,
+        "imgUrl": "https://vn-live-05.slatic.net/p/b23043bd11cbe5a6e190732c2b8d6f99.jpg_720x720q80.jpg_.webp",
+        "alt": "anhdemo",
+        "title": "Đồ Ngủ Ngon Màu Vàng",
+        "price": 135.200,
+        "content": "🌴🌴Đi ngủ, đi chơi, đi du lịch Siêu gọn - nhẹ - siêu mát mẻ - ko nhăn ko lo nóng, bí!",
+        "star": 1,
+        "review": 68
+    },
+    {
+        "id": 5,
+        "imgUrl": "https://cf.shopee.vn/file/86013e60801b03a1fbd9b379b229eac1",
+        "alt": "anhdemo",
+        "title": "Đồ Ngủ Ngon Màu Vịt",
+        "price": 61.3,
+        "content": "🌴🌴Đi ngủ, đi chơi, đi du lịch Siêu gọn - nhẹ - siêu mát mẻ - ko nhăn ko lo nóng, bí!",
+        "star": 3,
+        "review": 32
+
+    },
+    {
+        "id": 6,
+        "imgUrl": "https://cf.shopee.vn/file/5ab1a425dd10976e85750f87aecb787d",
+        "alt": "anhdemo",
+        "title": "Đồ Ngủ Ngon Màu Hộp",
+        "price": 12.3,
+        "content": "🌴🌴Đi ngủ, đi chơi, đi du lịch Siêu gọn - nhẹ - siêu mát mẻ - ko nhăn ko lo nóng, bí!",
+        "star": 2,
+        "review": 26
+    }
+]

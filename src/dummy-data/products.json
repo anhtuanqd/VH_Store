@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "https://cf.shopee.vn/file/e887a33e1d2745d4f35384171919d043",
+        "alt": "anhdemo",
+        "title": "Áo thun nam basic",
+        "price": 230,
+        "content": "Áo thun nam cotton được thiết kế với form áo Regular Fit vừa vặn cơ thể khéo léo tôn lên những phần săn chắc thoải mái ko gò bó khi vận động tạo nên sự nặng động, trẻ trung",
+        "star": 4,
+        "review": 5
+    },
+    {
+        "id": 2,
+        "imgUrl": "https://cf.shopee.vn/file/e887a33e1d2745d4f35384171919d043",
+        "alt": "anhdemo",
+        "title": "Áo đấu Messi",
+        "price": 150,
+        "content": "Màu sắc: TRẮNG và ĐEN. Chất liệu: Vải poly cotton 65-35 mềm mịn thoáng mát, co giãn nhẹ mặc rất thoải mái. Quý khách muốn mua vải thun lạnh hoặc 100% cotton thì liên hệ shop nhé.",
+        "star": 4,
+        "review": 28
+
+    },
+    {
+        "id": 3,
+        "imgUrl": "https://cf.shopee.vn/file/e887a33e1d2745d4f35384171919d043",
+        "alt": "anhdemo",
+        "title": "Quần Jean Hàn Quốc",
+        "price": 250,
+        "content": "Mang phong cách retro của những năm thập niên 90, Quần Jean Ống Rộng rất được lòng các cô nàng khi style cổ điển đang lên ngôi trong thời gian gần đây từ thành phố tới nông thôn",
+        "star": 2,
+        "review": 45
+
+    },
+    {
+        "id": 4,
+        "imgUrl": "https://cf.shopee.vn/file/e887a33e1d2745d4f35384171919d043",
+        "alt": "anhdemo",
+        "title": "Quần Jean nữ",
+        "price": 150,
+        "content": "Với thiết kế rộng rãi, có khi độ rộng tựa như những chiếc váy, Quần Jean Ống Rộng vừa đảm bảo sự an toàn cho nữ giới khi mặc nhưng cũng vô cùng mềm mại, nữ tính",
+        "star": 1,
+        "review": 68
+    },
+    {
+        "id": 5,
+        "imgUrl": "https://cf.shopee.vn/file/e887a33e1d2745d4f35384171919d043",
+        "alt": "anhdemo",
+        "title": "Áo khoác nam",
+        "price": 280,
+        "content": "HT Store chuyên sỉ lẻ các mặc hàng của shop là những mẫu các bạn trẻ ưa chuộng ,các mẫu tự thiết kế lên form mẫu, đa dạng về mẫu mã sản phẩm từ nam tới nữ",
+        "star": 3,
+        "review": 32
+
+    },
+    {
+        "id": 6,
+        "imgUrl": "https://cf.shopee.vn/file/e887a33e1d2745d4f35384171919d043",
+        "alt": "anhdemo",
+        "title": "Áo khoác mèo cào",
+        "price": 300,
+        "content": "Đây là một cách tốt để đặt dấu ấn cá nhân của bạn trên một món quà cho những người đặc biệt (hoặc tùy chỉnh theo phong cách của những người đặc biệt)",
+        "star": 2,
+        "review": 26
+    }
+]

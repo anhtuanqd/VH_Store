@@ -1,0 +1,30 @@
+.item img {
+  height: 600px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.caption {
+  background-color: rgba(204, 204, 204, 0.5);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.caption h3 {
+  color: #f33f3f;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.caption p {
+  color: #fff;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 62px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border: none;
+}

@@ -1,0 +1,31 @@
+{
+    "home": [
+        {
+            "id": 1,
+            "src": "https://theme.hstatic.net/1000333436/1000696015/14/slideshow_1.jpg?v=631",
+            "alt": "first slide",
+            "caption": {
+                "title": "Đẳng cấp quý ông",
+                "content": "Sản phẩm hàng đầu"
+            }
+        },
+        {
+            "id": 2,
+            "src": "https://bizweb.dktcdn.net/100/305/277/themes/756519/assets/banner1.jpg?1633151213550",
+            "alt": "second slide1",
+            "caption": {
+                "title": "Lựa chọn tốt nhất",
+                "content": "Hàng mới về"
+            }
+        },
+        {
+            "id": 3,
+            "src": "https://images.hdqwalls.com/download/girl-portrait-designer-clothes-71-1440x900.jpg",
+            "alt": "third slide",
+            "caption": {
+                "title": "Mùa giáng sinh tới",
+                "content": "Hãy thật đặc biệt"
+            }
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+.latestProducts {
+  margin-top: 100px;
+}
+
+.allProduct {
+  float: right;
+  margin-top: -35px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #f33f3f;
+}
+
+/* Best Features */
+.bestFeatures {
+  margin-top: 50px;
+}
+
+.bestFeatures a{
+  text-decoration: none;
+}
+
+.bestFeaturesImg img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.pd60{
+    padding-bottom: 60px;
+}
+
+.leftContent h4 {
+  font-size: 17px;
+  color: #1a6692;
+  margin-bottom: 20px;
+}
+.leftContent p {
+  margin-bottom: 25px;
+}
+
+.leftContent ul li {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #4a4a4a;
+  font-weight: 300;
+  transition: all 0.3s;
+  position: relative;
+  padding-left: 13px;
+  cursor: pointer;
+}
+
+.leftContent ul li:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background-color: #4a4a4a;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s;
+  top: 8px;
+}
+
+.leftContent ul li:hover {
+  color: #f33f3f;
+}
+
+.leftContent ul li:hover::before {
+  background-color: #f33f3f;
+}
+
+.filledButton {
+  margin-top: 20px;
+}
+
+/* Call To Action */
+
+.innerContent {
+  margin-top: 60px;
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.innerContent h4 {
+  font-size: 17px;
+  color: #1a6692;
+  margin-bottom: 15px;
+}
+
+.innerContent em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.innerContent button {
+  margin-top: 12px;
+}
+
+.textRight{
+    text-align: right;
+}
