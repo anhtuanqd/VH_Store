@@ -1,13 +1,21 @@
-import React from "react";
-import "./Navbar.css";
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import React from 'react';
+import './Navbar.css';
+import { Link, useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { Avatar, Image } from 'antd';
 
 const NavbarComponent = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const { pathname } = location;
-  const splitLocation = pathname.split("/");
+  const splitLocation = pathname.split('/');
 
+  const handleLogOut = () => {
+    setTimeout(() => {
+      localStorage.removeItem('access_token');
+      navigate('/', { replace: true });
+    }, 1500);
+  };
   return (
     <>
       <header>
@@ -33,7 +41,7 @@ const NavbarComponent = () => {
               <ul className="navbar-nav">
                 <li
                   className={
-                    splitLocation[1] === "" ? "active nav-item" : "nav-item"
+                    splitLocation[1] === '' ? 'active nav-item' : 'nav-item'
                   }
                 >
                   <Link className="nav-link" to="/">
@@ -42,9 +50,9 @@ const NavbarComponent = () => {
                 </li>
                 <li
                   className={
-                    splitLocation[1] === "Products"
-                      ? "active nav-item"
-                      : "nav-item"
+                    splitLocation[1] === 'Products'
+                      ? 'active nav-item'
+                      : 'nav-item'
                   }
                 >
                   <Link className="nav-link" to="/Products">
@@ -53,9 +61,9 @@ const NavbarComponent = () => {
                 </li>
                 <li
                   className={
-                    splitLocation[1] === "About"
-                      ? "active nav-item"
-                      : "nav-item"
+                    splitLocation[1] === 'About'
+                      ? 'active nav-item'
+                      : 'nav-item'
                   }
                 >
                   <Link className="nav-link" to="/About">
@@ -64,9 +72,9 @@ const NavbarComponent = () => {
                 </li>
                 <li
                   className={
-                    splitLocation[1] === "Contact"
-                      ? "active nav-item"
-                      : "nav-item"
+                    splitLocation[1] === 'Contact'
+                      ? 'active nav-item'
+                      : 'nav-item'
                   }
                 >
                   <Link className="nav-link" to="/Contact">
@@ -75,9 +83,25 @@ const NavbarComponent = () => {
                 </li>
               </ul>
             </div>
-            <span style={{ color: "white" }}>Anhtuan</span>
           </div>
         </nav>
+
+        <div className="User">
+          <Avatar
+            className="Avatar"
+            src={
+              <Image
+                src="https://joeschmoe.io/api/v1/random"
+                style={{ width: 32 }}
+              />
+            }
+          />
+          <div className="menuNav">
+            <p className="logOut" onClick={handleLogOut}>
+              Logout
+            </p>
+          </div>
+        </div>
       </header>
     </>
   );
