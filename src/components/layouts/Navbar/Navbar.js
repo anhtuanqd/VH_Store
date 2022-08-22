@@ -31,28 +31,51 @@ const NavbarComponent = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav">
-                <li className={splitLocation[1] === "" ? "active nav-item" : "nav-item"}>
+                <li
+                  className={
+                    splitLocation[1] === "" ? "active nav-item" : "nav-item"
+                  }
+                >
                   <Link className="nav-link" to="/">
                     Home
                   </Link>
                 </li>
-                <li className={splitLocation[1] === "Products" ? "active nav-item" : "nav-item"}>
+                <li
+                  className={
+                    splitLocation[1] === "Products"
+                      ? "active nav-item"
+                      : "nav-item"
+                  }
+                >
                   <Link className="nav-link" to="/Products">
                     Products
                   </Link>
-                </li> 
-                <li className={splitLocation[1] === "About" ? "active nav-item" : "nav-item"}>
+                </li>
+                <li
+                  className={
+                    splitLocation[1] === "About"
+                      ? "active nav-item"
+                      : "nav-item"
+                  }
+                >
                   <Link className="nav-link" to="/About">
                     About Us
                   </Link>
                 </li>
-                <li className={splitLocation[1] === "Contact" ? "active nav-item" : "nav-item"}>
+                <li
+                  className={
+                    splitLocation[1] === "Contact"
+                      ? "active nav-item"
+                      : "nav-item"
+                  }
+                >
                   <Link className="nav-link" to="/Contact">
                     Contact Us
                   </Link>
                 </li>
               </ul>
             </div>
+            <span style={{ color: "white" }}>Anhtuan</span>
           </div>
         </nav>
       </header>

@@ -1,20 +1,25 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
-import { Link, Outlet } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import Row from '../../components/atoms/Row/Row';
-import Col from '../../components/atoms/Col/Col';
-import StyleProducts from './Products.module.css';
-import Banner from '../../components/molecules/Banner/Banner';
-import dummyCarouselListProduct from '../../dummy-data/carouselListProduct.json';
+import React, { useState } from "react";
+import { Container } from "react-bootstrap";
+import { Link, Outlet } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import Row from "../../components/atoms/Row/Row";
+import Col from "../../components/atoms/Col/Col";
+import "./productbk.scss";
+import StyleProducts from "./Products.module.scss";
+import Banner from "../../components/molecules/Banner/Banner";
+import dummyCarouselListProduct from "../../dummy-data/carouselListProduct.json";
+import { Pagination } from "antd";
 
 const Products = () => {
+  const [current, setCurrent] = useState(3);
   const location = useLocation();
   const { pathname } = location;
-  const splitLocation = pathname.split('/products');
+  const splitLocation = pathname.split("/products");
 
+  const onChange = (page) => {
+    console.log(page);
+    setCurrent(page);
+  };
   return (
     <>
       <Banner datas={dummyCarouselListProduct.listProduct} />
@@ -25,9 +30,9 @@ const Products = () => {
               <ul className={StyleProducts.ul}>
                 <li
                   className={
-                    splitLocation[1] === '' || !splitLocation[1]
+                    splitLocation[1] === "" || !splitLocation[1]
                       ? `${StyleProducts.active}`
-                      : ''
+                      : ""
                   }
                 >
                   <Link className={StyleProducts.category} to="/products">
@@ -36,18 +41,18 @@ const Products = () => {
                 </li>
                 <li
                   className={
-                    splitLocation[1] === '/vay' ? `${StyleProducts.active}` : ''
+                    splitLocation[1] === "/vay" ? `${StyleProducts.active}` : ""
                   }
                 >
                   <Link className={StyleProducts.category} to="/products/vay">
-                    Áo Len{' '}
+                    Áo Len{" "}
                   </Link>
                 </li>
                 <li
                   className={
-                    splitLocation[1] === '/phukien'
+                    splitLocation[1] === "/phukien"
                       ? `${StyleProducts.active}`
-                      : ''
+                      : ""
                   }
                 >
                   <Link
@@ -59,9 +64,9 @@ const Products = () => {
                 </li>
                 <li
                   className={
-                    splitLocation[1] === '/khac'
+                    splitLocation[1] === "/khac"
                       ? `${StyleProducts.active}`
-                      : ''
+                      : ""
                   }
                 >
                   <Link className={StyleProducts.category} to="/products/khac">
@@ -78,25 +83,7 @@ const Products = () => {
         <Row>
           <Col>
             <div className={StyleProducts.navigate}>
-              <ul className={StyleProducts.pages}>
-                <li className={StyleProducts.active}>
-                  <div style={{ color: 'white' }}>1</div>
-                </li>
-                <li>
-                  <div>2</div>
-                </li>
-                <li>
-                  <div>3</div>
-                </li>
-                <li>
-                  <div>4</div>
-                </li>
-                <li>
-                  <div>
-                    <FontAwesomeIcon icon={faAngleRight} color="#121212" />
-                  </div>
-                </li>
-              </ul>
+              <Pagination current={current} onChange={onChange} total={50} />
             </div>
           </Col>
         </Row>

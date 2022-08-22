@@ -1,15 +1,15 @@
 const config = {
-  user: 'NgVHoang',
-  password: '123456',
-  server: 'ANHTUANQD',
+  user: "sa",
+  password: "Anhtuanqd@123",
+  server: "localhost",
 
   options: {
     port: 49970,
-    database: 'SQL Shop',
+    database: "SQLShop",
     trustServerCertificate: true,
     truestedConnection: true,
     enableArithAbort: true,
-    instancename: 'SQLEXPRESS',
+    instancename: "tuanda-ubuntu",
   },
 };
 

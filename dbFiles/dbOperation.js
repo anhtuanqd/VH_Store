@@ -1,10 +1,10 @@
-const config = require('./dbConfig');
-const sql = require('mssql');
+const config = require("./dbConfig");
+const sql = require("mssql");
 
 const getData = async () => {
   try {
     let pool = await sql.connect(config);
-    let data = await pool.request().query('SELECT * FROM Product');
+    let data = await pool.request().query("SELECT * FROM Persons");
     return data;
   } catch (e) {
     console.log(e);
