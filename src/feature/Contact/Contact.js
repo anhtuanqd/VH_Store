@@ -1,8 +1,6 @@
 import React from 'react';
 import Iframe from 'react-iframe';
 import { Link } from 'react-router-dom';
-
-// import anh1 from "../../assets/images/client-01.png";
 import dummyCarouselContact from '../../dummy-data/carouselContact.json';
 import SectionTitle from '../../components/molecules/SectionTitle/SectionTitle';
 import Banner from '../../components/molecules/Banner/Banner';
@@ -11,7 +9,6 @@ import Col from '../../components/atoms/Col/Col';
 import Container from '../../components/atoms/Container/Container';
 import Button from '../../components/atoms/Button/Button';
 import SocialMedia from '../../components/molecules/SocialMedia/SocialMedia';
-
 import commonStyle from '../../styles/commonStyle.module.css';
 import styles from './Contact.module.css';
 import Img from '../../components/atoms/Img/Img';
