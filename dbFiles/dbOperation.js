@@ -1,13 +1,13 @@
 const config = require('./dbConfig');
 const sql = require('mssql');
 
-const getData = async () => {
+const getAoQuan = async () => {
   try {
     let pool = await sql.connect(config);
-    let data = await pool.request().query('SELECT * FROM Product');
+    let data = await pool.request().query('SELECT * FROM AoQuan');
     return data;
   } catch (e) {
-    console.log(e);
+    return e;
   }
 };
 
@@ -25,6 +25,6 @@ const createData = async (values) => {
 };
 
 module.exports = {
-  getData,
+  getAoQuan,
   createData,
 };

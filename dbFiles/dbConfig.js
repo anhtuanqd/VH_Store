@@ -1,6 +1,6 @@
 const config = {
   user: 'NgVHoang',
-  password: '123456@123',
+  password: 'hoangngu',
   server: 'ANHTUANQD',
 
   options: {

@@ -119,30 +119,10 @@ header .navbar {
   align-items: center;
   position: relative;
 }
-.menuNav {
-  display: none;
-  position: absolute;
-  min-width: 100px;
-  background-color: white;
-  border: solid 1px #ccc;
-  top: 61px;
-  right: 0px;
-}
-.User:hover .menuNav {
-  display: block;
-}
-.menuNav .logOut {
-  padding: 0;
-  margin: 0;
-  line-height: 36px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  cursor: pointer;
-}
-.User .menuNav .logOut:hover {
-  background-color: #ccc;
-}
+
 .ant-image {
   background-color: #f33f3f;
+}
+.Avatar {
+  margin-right: 8px !important;
 }
