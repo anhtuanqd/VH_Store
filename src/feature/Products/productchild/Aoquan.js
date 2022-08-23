@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import Col from '../../../components/atoms/Col/Col';
-import ProductItem from '../../../components/molecules/ProductItem/ProductItem';
-import commonStyle from '../../../styles/commonStyle.module.css';
-import Row from '../../../components/atoms/Row/Row';
-import { Pagination } from 'antd';
-import '../productbk.scss';
-import StyleProducts from '../Products.module.scss';
-import { getData } from '../../../api/axios';
+import React, { useEffect, useState } from "react";
+import Col from "../../../components/atoms/Col/Col";
+import ProductItem from "../../../components/molecules/ProductItem/ProductItem";
+import commonStyle from "../../../styles/commonStyle.module.css";
+import Row from "../../../components/atoms/Row/Row";
+import { Pagination } from "antd";
+import "../productbk.scss";
+import StyleProducts from "../Products.module.scss";
+import { getData } from "../../../api/axios";
 
 function AoQuan() {
   const [currentData, setCurrentData] = useState();
@@ -37,6 +37,7 @@ function AoQuan() {
         {data?.map((data) => (
           <Col className={commonStyle.col4}>
             <ProductItem
+              id={data.id}
               src={data.imgUrl}
               title={data.title}
               price={data.price}

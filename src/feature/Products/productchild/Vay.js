@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import productsSweater from '../../../dummy-data/productsSweater.json';
-import Col from '../../../components/atoms/Col/Col';
-import ProductItem from '../../../components/molecules/ProductItem/ProductItem';
-import commonStyle from '../../../styles/commonStyle.module.css';
-import Row from '../../../components/atoms/Row/Row';
-import { Pagination } from 'antd';
-import '../productbk.scss';
-import StyleProducts from '../Products.module.scss';
+import React, { useState } from "react";
+import productsSweater from "../../../dummy-data/productsSweater.json";
+import Col from "../../../components/atoms/Col/Col";
+import ProductItem from "../../../components/molecules/ProductItem/ProductItem";
+import commonStyle from "../../../styles/commonStyle.module.css";
+import Row from "../../../components/atoms/Row/Row";
+import { Pagination } from "antd";
+import "../productbk.scss";
+import StyleProducts from "../Products.module.scss";
 
 function Vay() {
   const [current, setCurrent] = useState(1);
@@ -25,6 +25,7 @@ function Vay() {
         {data.map((data) => (
           <Col key={data.id} className={commonStyle.col4}>
             <ProductItem
+              id={data.id}
               src={data.imgUrl}
               title={data.title}
               price={data.price}
